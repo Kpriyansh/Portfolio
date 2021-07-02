@@ -1,0 +1,19 @@
+.Scroll{
+    overflow-y: scroll;
+    height: 400px;
+    box-shadow:0 -1px 1px grey;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-bottom: -30px; */
+}
+@media (min-width:800px){
+    .Scroll{
+        overflow-y: hidden;
+        box-shadow: none;
+        height: 100%;
+        margin-top: 0px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

@@ -1,0 +1,50 @@
+.HeadNav{
+    background-color: rgb(66, 68, 66);
+    color: white;
+}
+nav{
+    
+    background: #1F0195;
+    background: -webkit-linear-gradient(left, #1F0195, #010457);
+    background: -moz-linear-gradient(left, #1F0195, #010457);
+    background: linear-gradient(to right, #1F0195, #010457);
+}
+.Header{
+    color:#ffc846;
+    text-transform: uppercase;
+    font-size: larger;
+    text-transform: none;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 500;
+}
+@media (max-width:700px){
+    .Header{
+        font-size: large;
+    }
+}
+nav a:hover{
+    text-decoration: none;
+    text-transform: none;
+    color: #ffc846;
+}
+ul li{
+    
+    color: #ffc846;
+    text-transform: uppercase;
+    font-size: medium;
+    margin: 5px;
+    padding: 5px 20px;
+    
+}
+ul li:hover{
+    
+    box-shadow: 0 -2px 0px #ffc846;
+    cursor: pointer;
+}
+
+
+.Navbutton{
+    color:#ffc846;
+    
+}

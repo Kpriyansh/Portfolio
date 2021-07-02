@@ -1,0 +1,134 @@
+.head-gap{
+    padding-top: 42px;
+}
+.grid-wrapper{
+    display: grid;
+    grid-gap: 20px;
+   
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+}
+.zone {
+ 
+    place-self: center;
+    color:#FFF;
+    font-size: 2em;;
+    border-radius: 4px;
+    border:1px solid #ffc846;
+    transition: all 0.3s linear;
+    
+}
+
+#project-container{
+    margin-top: 20px; 
+    font-family: sans-serif;
+    text-align: center;
+    color: #ffc846;
+    /* padding-bottom: 50px; */
+    /* margin-bottom: 20px; */
+    
+}
+.p1{
+    background-image: url('../Images/gameImage.png');
+}
+.p2{
+    background-image: url('../Images/sfz.png');
+}
+.p3{
+    background-image: url('../Images/weather.png');
+}
+.p4{
+    background-image: url('../Images/Robofriends.png');
+}
+.p5{
+    background-image: url('../Images/bgGen.png');
+}
+.project{
+    /* background-image: url('../Images//15276.jpg'); */
+    display: block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* text-align: center; */
+    /* justify-content: center; */
+    border-radius:10px;
+    height: 300px;
+    width: 100%;
+    
+    /* padding: 10px; */
+    padding-top: 50px;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.project:hover{
+    cursor: pointer;
+}
+.zone:hover {
+    
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.p-data{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: #ffc846;;
+    font-family: 'Quicksand',sans-serif;
+    display:flex ;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.p-data >*{
+    transform: translateY(20px);
+    transition: transform 0.5s;
+}
+.p-data:hover{
+    
+    opacity: 1;
+}
+.p-data:hover>*{
+    transform: translateY(0);
+}
+.link-btns .btn-primary{
+    margin: 20px;
+    background-color: transparent;
+    border: 2px solid #ffc846;;
+    color: #ffc846;
+    transition: 0.5s all;
+}
+.link-btns .btn-primary:hover{
+    border: 2px solid #ffc846;;
+    background-color: white;
+    color: black;
+}
+.p5{
+  background-size: cover;  
+} 
+@media (min-width:800px){
+    .grid-wrapper{
+        grid-template-columns: repeat(auto-fill,minmax(495px,1fr));
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 80px;
+    }
+    .project{
+        height: 350px;
+    }
+    
+    #project-container{
+        margin-bottom: -50px;
+    }
+    .p5{
+        display: none;
+    }
+}
