@@ -5,7 +5,7 @@ const Contact = () => {
         <React.Fragment>
             <div id="contact">
                 <form name='contact-form' className={Styles.contactContainer} method="POST" data-netlify="true">
-                    <input type="hidden" name="form-name" value="contact-form"/>
+                   
                     <div className={Styles.contactHeader}>
                         <h1>Contact me</h1>
                         <h4>Please fill out the form and I'll contact you as soon as possible !</h4>
