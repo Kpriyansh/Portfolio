@@ -19,16 +19,16 @@ const NavBar = () => {
                 <Link to="home" smooth={true}>HOME</Link>
               </li>
               <li className={`nav-item `} >
-                <Link to="about" smooth={true} duration={500}>ABOUT ME</Link>
+                <Link to="about" smooth={true}>ABOUT ME</Link>
               </li>
               <li className={`nav-item `} >
-                <Link to="skills" smooth={true} duration={500}>SKILLS</Link>
+                <Link to="skills" smooth={true}>SKILLS</Link>
               </li>
               <li className={`nav-item `} >
-                <Link to="projects" smooth={true} duration={500}>PROJECTS</Link>
+                <Link to="projects" smooth={true}>PROJECTS</Link>
               </li>
               <li className={`nav-item `} >
-                <Link to="contact" smooth={true} duration={500}>CONTACTS</Link>
+                <Link to="contact" smooth={true}>CONTACTS</Link>
               </li>
             </ul>
           </div>
