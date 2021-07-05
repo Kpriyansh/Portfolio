@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className={Styles.Left}>
                         <p>Ranchi (PIN 835215), India</p>
                         <p>+91888777666</p>
-                        <p>kpriyansh34@gmail.com</p>
+                        <p>kumarpriyansh34@gmail.com</p>
                     </div>
                     <div className={Styles.Right}>
                         <a href="https://www.linkedin.com/in/priyansh-kumar-2027281a7/" target='__blank'><FaLinkedin className={Styles.ldn} title="LinkedIn" /></a>

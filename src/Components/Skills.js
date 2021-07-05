@@ -19,7 +19,7 @@ const Skill = () => {
                     <div className={Styles.skills}>
                         <div className={Styles.skill_icon}>
                             <span title="Cplusplus">
-                                <img alt="Js" src={Cpp} ></img>
+                                <img alt="C++" src={Cpp} ></img>
                             </span>
                         </div>
                         <div className={Styles.skill_icon}>
@@ -29,37 +29,37 @@ const Skill = () => {
                         </div>
                         <div className={Styles.skill_icon}>
                             <span title="HTML 5">
-                                <img alt="Js" src={htmli} ></img>
+                                <img alt="html5" src={htmli} ></img>
                             </span>
                         </div>
                         <div className={Styles.skill_icon}>
                             <span title="CSS 3">
-                                <img alt="Js" src={cssi} ></img>
+                                <img alt="css3" src={cssi} ></img>
                             </span>
                         </div>
                         <div className={Styles.skill_icon}>
                             <span title="React Js">
-                                <img alt="Js" src={reacti} ></img>
+                                <img alt="reactJs" src={reacti} ></img>
                             </span>
                         </div>
                         <div className={Styles.skill_icon}>
                             <span title="Bootstrap">
-                                <img alt="Js" src={Bi} ></img>
+                                <img alt="Bootstrap" src={Bi} ></img>
                             </span>
                         </div>
                         <div className={Styles.skill_icon}>
                             <span title="Git">
-                                <img alt="Js" src={giti} ></img>
+                                <img alt="Git" src={giti} ></img>
                             </span>
                         </div>
                         <div className={Styles.skill_icon}>
                             <span title="GitHub">
-                                <img alt="Js" src={githubi} ></img>
+                                <img alt="Github" src={githubi} ></img>
                             </span>
                         </div>
                         <div className={Styles.skill_icon}>
                             <span title="C language">
-                                <img alt="Js" src={ci} ></img>
+                                <img alt="C" src={ci} ></img>
                             </span>
                         </div>
                     </div>
