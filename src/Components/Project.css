@@ -99,17 +99,19 @@
 .p-data:hover>*{
     transform: translateY(0);
 }
-.link-btns .btn-primary{
+ .btn-primary{
     margin: 20px;
     background-color: transparent;
     border: 2px solid #ffc846;;
     color: #ffc846;
     transition: 0.5s all;
 }
-.link-btns .btn-primary:hover{
+
+.btn-primary:hover{
     border: 2px solid #ffc846;;
     background-color: white;
     color: black;
+    
 }
 .p5{
   background-size: cover;  

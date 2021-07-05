@@ -33,7 +33,7 @@ const Project = () => {
                                     <h3>Weather App</h3>
                                     <div className="link-btns" >
                                        <a href='https://github.com/Kpriyansh/WeatherApp' target='__blank'><button type="button" class="btn btn-primary">Github</button></a>
-                                       <a href='https://weather-app-34.netlify.app/' target='__blank'> <button type="button" class="btn btn-primary">Live Site</button></a>
+                                       <a href='https://weather-app-34.netlify.app' target='__blank'> <button type="button" class="btn btn-primary">Live Site</button></a>
                                     </div>
                                 </div>
                             </div>
