@@ -1,7 +1,7 @@
 import React from 'react';
 import Styles from './Contact.module.css'
 const Contact = () => {
-    const handlesubmit=()=>alert("Thanks, your message has been recieved. Will contact you shortly!");
+    const handlesubmit=()=>alert("Thank You, your message has been received. Contacting you shortly!");
     
     return (
         <React.Fragment>
