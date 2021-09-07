@@ -28,7 +28,7 @@ const NavBar = () => {
                 <Link to="projects" activeClass="active" smooth={true}>PROJECTS</Link>
               </li>
               <li className={`nav-item`}>
-                <a href='https://drive.google.com/file/d/10iAt4a1I6c5fst5XxUQ3WkSYe__QoUPQ/view?usp=drivesdk' target='__blank'>RESUME</a>
+                <a href='https://drive.google.com/file/d/1YTZZk6SH0DcrHgfAAp2HP8r8AS87MVWB/view?usp=sharing' target='__blank'>RESUME</a>
               </li>
               <li className={`nav-item `} >
                 <Link to="contact" activeClass="active" smooth={true}>CONTACTS</Link>

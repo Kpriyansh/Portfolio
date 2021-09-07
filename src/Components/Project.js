@@ -23,8 +23,8 @@ const Project = () => {
                                 <div className="p-data">
                                     <h3>Celebrity Face Recognition</h3>
                                     <div className="link-btns" >
-                                        <a href='https://github.com/Kpriyansh/Smartbrain' target='__blank'><button type="button" class="btn btn-primary">Github</button></a>
-                                        <a href='https://smart-brain-1b3a0.web.app' target='__blank'><button type="button" class="btn btn-primary">Live Site</button></a>
+                                        <a href='https://github.com/Kpriyansh/face-recognition' target='__blank'><button type="button" class="btn btn-primary">Github</button></a>
+                                        <a href='https://smart-detect-34.herokuapp.com/' target='__blank'><button type="button" class="btn btn-primary">Live Site</button></a>
                                     </div>
                                 </div>
                             </div>
