@@ -9,6 +9,9 @@ import htmli from '../Icons/icons8-html-5.svg'
 import cssi from '../Icons/icons8-css3.svg'
 import reacti from '../Icons/icons8-react.svg'
 import ci from '../Icons/c-programming.svg'
+import nodei from '../Icons/icons8-nodejs.svg'
+import mongoi from '../Icons/icons8-mongodb.svg'
+import psqli from '../Icons/icons8-postgresql.svg'
 const Skill = () => {
     return (
         <React.Fragment>
@@ -60,6 +63,21 @@ const Skill = () => {
                         <div className={Styles.skill_icon}>
                             <span title="C language">
                                 <img alt="C" src={ci} ></img>
+                            </span>
+                        </div>
+                        <div className={Styles.skill_icon}>
+                            <span title="Node Js">
+                                <img alt="NodeJs" src={nodei} ></img>
+                            </span>
+                        </div>
+                        <div className={Styles.skill_icon}>
+                            <span title="Mongo DB">
+                                <img alt="mongodb" src={mongoi} ></img>
+                            </span>
+                        </div>
+                        <div className={Styles.skill_icon}>
+                            <span title="PostgreSQL">
+                                <img alt="psql" src={psqli} ></img>
                             </span>
                         </div>
                     </div>
